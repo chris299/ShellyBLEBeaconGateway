@@ -3,8 +3,8 @@ Shelly Javascript to route BLE (Bluetooth Low Energy) Beacon Advertisements to m
 the HTTP GET is used to transmit the data to IOBroker.
 
 ## My Motivation:
-The BLE Adapter of IOBroker does not work anymore so IOBroker can not receive Beacon Advertisements through local BLE Dongles anymore
-I run this script on a Gen2 Shelly Plus 1 pm to transfer information from my FlowerCare devices to IOBroker 
+The BLE Adapter of IOBroker did not work for a while (does work now again) so IOBroker couldn't receive Beacon Advertisements through local BLE Dongles anymore
+I ran this script on a Gen2 Shelly Plus 1 pm to transfer information from my FlowerCare devices to IOBroker 
 
 ## Notes
 The Shelly JS Environment is very limited, i.e. functions like array.shift are not available. Also HTTP POST is missing.
