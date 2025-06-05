@@ -1,9 +1,9 @@
 # ShellyBLEBeaconGateway
-Shelly Javascript to route BLE (Bluetooth Low Energy) Beacon Advertisements to mqtt or http-GET destination, esp. BTHome and Xiaomi FlowerCare
+Shelly Javascript to route BLE (Bluetooth Low Energy) Beacon Advertisements to mqtt or http-GET destination, esp. BTHome (v2) and Xiaomi FlowerCare
 the HTTP GET is used to transmit the data to IOBroker.
 
 ## My Motivation:
-The BLE Adapter of IOBroker did not work for a while (does work now again) so IOBroker couldn't receive Beacon Advertisements through local BLE Dongles anymore
+The BLE Adapter of IOBroker did not work for a while (see https://github.com/AlCalzone/ioBroker.ble/issues/871 , but does work now again) so IOBroker couldn't receive Beacon Advertisements through local BLE Dongles anymore
 I ran this script on a Gen2 Shelly Plus 1 pm to transfer information from my FlowerCare devices to IOBroker 
 
 ## Notes
